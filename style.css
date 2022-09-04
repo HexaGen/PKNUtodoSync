@@ -1,0 +1,96 @@
+.IMGContainer {
+    position: relative;
+}
+
+.PKNUtodoSyncLOGO {
+    position: absolute;
+    top: 75px;
+    left: 275px;
+    z-index: 1;
+
+}
+
+.todoIMG {
+    width: 640px;
+    filter: blur(2px);
+}
+
+.logo {
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    z-index: 1;
+}
+
+.main_para {
+    position: absolute;
+    text-align: center;
+    margin: 20px 80px;
+    top: 200px;
+    font-size: 1rem;
+
+}
+
+/* #FBE63F */
+/* #0071FF */
+/* #0f296f */
+/* #1c43af */
+@font-face {
+    font-family: 'LeferiPoint-SpecialA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.PKNUcolor {
+    color: #0f296f;
+    
+}
+
+.Margin50 {
+    margin-bottom: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'pretendard', sans-serif;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #fffeff;
+    width: 640px;
+    margin: auto;
+}
+
+.logo {
+    font-family: 'LeferiPoint-SpecialA';
+    font-size: 3rem;
+    /* position: absolute; */
+    /* left: 50%; */
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+.step {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #000;
+    padding-bottom: 5px;
+    border-bottom: 1px #aaa solid;
+
+}
+
+.detail_para {
+    font-size: 1rem;
+    color: #444;
+}
+
+.loginBorder{
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 15px;
+}
